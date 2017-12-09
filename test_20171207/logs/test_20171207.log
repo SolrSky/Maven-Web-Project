@@ -940,4 +940,22 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
   [INFO] [2017-12-08 13:59:58][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/account/getinfo/] onto handler 'accountInfoController'
   [INFO] [2017-12-08 13:59:58][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 913 ms
   [INFO] [2017-12-08 14:00:13][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+  [INFO] [2017-12-08 15:53:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+  [INFO] [2017-12-08 15:53:41][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@b856c2c: startup date [Fri Dec 08 15:53:41 CST 2017]; root of context hierarchy
+  [INFO] [2017-12-08 15:53:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [spring/app.properties]
+  [INFO] [2017-12-08 15:53:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-12-08 15:53:42][com.myjava.test.TestMybatis]??????id???????
+  [INFO] [2017-12-08 15:53:42][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+  [INFO] [2017-12-08 15:53:42][com.myjava.test.TestMybatis]???????
+  [INFO] [2017-12-08 15:53:42][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@b856c2c: startup date [Fri Dec 08 15:53:41 CST 2017]; root of context hierarchy
+  [INFO] [2017-12-08 15:53:42][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+  [INFO] [2017-12-09 12:36:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+  [INFO] [2017-12-09 12:36:19][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@325d21ef: startup date [Sat Dec 09 12:36:19 CST 2017]; root of context hierarchy
+  [INFO] [2017-12-09 12:36:19][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [spring/app.properties]
+  [INFO] [2017-12-09 12:36:19][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-12-09 12:36:20][com.myjava.test.TestMybatis]开始根据id查询数据库
+  [INFO] [2017-12-09 12:36:20][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+  [INFO] [2017-12-09 12:36:21][com.myjava.test.TestMybatis]查询结束
+  [INFO] [2017-12-09 12:36:21][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@325d21ef: startup date [Sat Dec 09 12:36:19 CST 2017]; root of context hierarchy
+  [INFO] [2017-12-09 12:36:21][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
   
